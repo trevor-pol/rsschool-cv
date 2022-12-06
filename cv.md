@@ -9,19 +9,23 @@ I have a lot of free time so I want to learn Front-End Development in RSSchool.
 * Python
 * Git/GitHub
 ## **Code Example:**
-```
-n, m = [int(_) for _ in input().split()]
-matrix = [[0] * m for _ in range(n)]
-a = 1
+```n = int(input())
+matrix = []
+for _ in range(n):
+    temp = [int(num) for num in input().split()]
+    matrix.append(temp)
+
+trans_matrix = []
+for _ in range(n):
+    temp = [0 * n for num in range(n)]
+    trans_matrix.append(temp)
+
 for i in range(n):
-    for j in range(m):
-        matrix[i][j] = a
-        a += 1
-for q in range(n):
-    if q % 2 != 0:
-        matrix[q] = reversed(matrix[q])
-for k in matrix:
-    print(*k)
+    for j in range(n):
+        trans_matrix[j][i] = matrix[i][j]
+
+for k in trans_matrix:
+    print(*reversed(k))
 ```
 ## **Education:**
 * School of business of BSU
