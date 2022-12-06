@@ -1,1 +1,1 @@
-# rsschool-cv
+https://trevor-pol.github.io/rsschool-cv/cv
