@@ -13,16 +13,13 @@ I have a lot of free time so I want to learn Front-End Development in RSSchool.
 n, m = [int(_) for _ in input().split()]
 matrix = [[0] * m for _ in range(n)]
 a = 1
-
 for i in range(n):
     for j in range(m):
         matrix[i][j] = a
         a += 1
-
 for q in range(n):
     if q % 2 != 0:
         matrix[q] = reversed(matrix[q])
-
 for k in matrix:
     print(*k)
 ```
