@@ -12,7 +12,8 @@ I have a lot of free time so I want to learn Front-End Development in RSSchool.
 * Git/GitHub
 
 ## **Code Example:**
-```n = int(input())
+```
+n = int(input())
 matrix = []
 for _ in range(n):
     temp = [int(num) for num in input().split()]
