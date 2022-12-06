@@ -42,7 +42,7 @@ for k in trans_matrix:
 * Education platform [Stepik](https://stepik.org/)
     * Course 'Python generation'
 
-    
+
 ## **Languages:**
 * Russian - Native speaker
 * English - Pre-Intermediate
