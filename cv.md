@@ -4,12 +4,15 @@
 * **Location:** Minsk, Belarus
 * **GitHub:** [trevor-pol](https://github.com/trevor-pol)
 
+
 ## **About myself:**
 I have a lot of free time so I want to learn Front-End Development in RSSchool.
+
 
 ## **Skills:**
 * Python
 * Git/GitHub
+
 
 ## **Code Example:**
 ```
@@ -32,12 +35,14 @@ for k in trans_matrix:
     print(*reversed(k))
 ```
 
+
 ## **Education:**
 * School of business of BSU
     * Business administration
 * Education platform [Stepik](https://stepik.org/)
     * Course 'Python generation'
 
+    
 ## **Languages:**
 * Russian - Native speaker
 * English - Pre-Intermediate
