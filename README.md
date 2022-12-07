@@ -1,1 +1,1 @@
-https://trevor-pol.github.io/rsschool-cv/cv
+https://trevor-pol.github.io/rsschool-cv/
